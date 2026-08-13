@@ -1,5 +1,9 @@
 # Netflix Veri Analizi
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/kadirseverrr/netflix-titles-exploratory-data-analysis)
+
+> Aynı analizin İngilizce notebook sürümü: [`netflix_veri_analizi.ipynb`](netflix_veri_analizi.ipynb) — [Kaggle'da yayınlanan versiyon](https://www.kaggle.com/code/kadirseverrr/netflix-titles-exploratory-data-analysis).
+
 Netflix katalog veri seti üzerinde **NumPy**, **Pandas** ve **Matplotlib** ile yapılmış keşifsel veri analizi (EDA) çalışması.
 
 2021 yılına kadar Netflix'te yayınlanmış **8.807 film ve dizi** incelenerek katalogun nasıl bir profile sahip olduğu araştırıldı: ne kadar güncel olduğu, hangi ülkelerde üretildiği, hangi türlerin öne çıktığı ve hangi yaş grubunu hedeflediği.
@@ -45,6 +49,8 @@ py netflix_veri_analizi.py
 ```
 
 `netflix_titles.csv` dosyası betikle aynı klasörde olmalıdır. Analiz sonuçları terminale yazdırılır, grafikler ise sırayla ayrı pencerelerde açılır — devam etmek için pencereyi kapatmak yeterlidir.
+
+Notebook sürümü için (`netflix_veri_analizi.ipynb`) ek olarak `jupyter` gerekir. Notebook, veri setini önce Kaggle yolunda (`/kaggle/input/netflix-shows/`) arar, bulamazsa çalışma klasöründeki CSV'yi kullanır — bu sayede hem Kaggle'da hem yerelde çalışır.
 
 ---
 

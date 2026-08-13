@@ -3,3 +3,6 @@
 # Veri dosyası ve grafikler bayt bayt korunsun
 *.csv -text
 *.png binary
+
+# Notebook her platformda LF kalsın — Kaggle importer CRLF'te sorun çıkarabiliyor
+*.ipynb text eol=lf
