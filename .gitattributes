@@ -1,0 +1,5 @@
+* text=auto
+
+# Veri dosyası ve grafikler bayt bayt korunsun
+*.csv -text
+*.png binary

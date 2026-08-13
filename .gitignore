@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Yerel çalışma dosyaları — repoya dahil değil
+temiz.py
+powerbi_yukle.py
+deneme1.py
+veri bilimi odevi netflix.py
